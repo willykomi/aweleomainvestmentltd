@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <!-- Registers the site's React forms with Netlify Forms at build time. Never shown to visitors. -->
+    <form name="audit-booking" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="audit-booking" />
+      <input name="name" /><input name="company" /><input name="phone" /><input name="email" />
+      <input name="fleetSize" /><input name="models" /><input name="location" /><input name="bot-field" />
+    </form>
+    <form name="inquiry" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="inquiry" />
+      <input name="department" /><input name="name" /><input name="company" /><input name="phone" />
+      <input name="email" /><textarea name="message"></textarea><input name="bot-field" />
+    </form>
+    <form name="parts-quote" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="parts-quote" />
+      <input name="name" /><input name="phone" /><input name="vehicle" /><input name="city" />
+      <textarea name="items"></textarea><input name="bot-field" />
+    </form>
+    <form name="serial-verification" data-netlify="true" hidden>
+      <input type="hidden" name="form-name" value="serial-verification" />
+      <input name="serial" /><input name="phone" />
+    </form>
+  </body>
+</html>
